@@ -56,13 +56,13 @@ nav {
     background: linear-gradient(45deg, var(--primary-color), var(--dynamic-color-1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    border-radius: 50%;
 }
 
 .logo img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
-    border-radius: 50%;
 }
 
 .menu {
