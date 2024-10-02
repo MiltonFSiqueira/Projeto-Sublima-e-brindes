@@ -2,51 +2,172 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto série</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Sublima & Brindes - Brindes Personalizados de Qualidade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <div class="topo">
-        <div>
-            Superman & Lois
-            <span>
-                <a href="#sinopse">Sinopse</a>
-                <a href="#disponibilidade">Disponibilidade</a>
-            </span>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="#FF6B6B"/>
+                    <text x="50" y="65" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">SB</text>
+                </svg>
+                Sublima & Brindes
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero com vídeo de fundo transparente -->
+        <section id="home" class="hero">
+            <!-- Vídeo de fundo -->
+            <video autoplay muted loop id="hero-video">
+                <source src="https://www.videvo.net/videvo_files/converted/2017_12/videos/171128_02_LightLeaks_1080p_005.mp4814.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+
+            <div class="hero-content container">
+                <h1>Brindes Personalizados de Qualidade</h1>
+                <p>Camisas, bonés e muito mais para promover sua marca!</p>
+                <a href="https://wa.me/5522997208740" class="cta-button">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco no WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção Produtos -->
+        <section id="products" class="products">
+            <div class="container">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <div class="product-grid">
+                    <!-- Produto 1 -->
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://example.com/camiseta-personalizada.jpg" alt="Camiseta personalizada branca com logo colorido">
+                        <div class="product-info">
+                            <h3>Camisetas Personalizadas</h3>
+                            <p>Diversos modelos e cores para sua equipe ou evento.</p>
+                        </div>
+                    </div>
+                    <!-- Produto 2 -->
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://example.com/bone-personalizado.jpg" alt="Boné personalizado azul com logo branco">
+                        <div class="product-info">
+                            <h3>Bonés Personalizados</h3>
+                            <p>Estilo e visibilidade para sua marca.</p>
+                        </div>
+                    </div>
+                    <!-- Produto 3 -->
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://example.com/caneta-personalizada.jpg" alt="Caneta personalizada preta com gravação dourada">
+                        <div class="product-info">
+                            <h3>Canetas Personalizadas</h3>
+                            <p>Praticidade e elegância em um só produto.</p>
+                        </div>
+                    </div>
+                    <!-- Produto 4 -->
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://example.com/chaveiro-personalizado.jpg" alt="Chaveiro personalizado metálico com gravação a laser">
+                        <div class="product-info">
+                            <h3>Chaveiros Personalizados</h3>
+                            <p>Pequenos detalhes que fazem a diferença.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Sobre Nós</h2>
+                <div class="about-content">
+                    <p class="animate-on-scroll">A Sublima & Brindes é especializada em criar brindes personalizados de alta qualidade para empresas e eventos. Com mais de 10 anos de experiência no mercado, nos orgulhamos de oferecer produtos que não apenas promovem sua marca, mas também encantam seus clientes.</p>
+                    <p class="animate-on-scroll">Nossa missão é transformar suas ideias em brindes memoráveis, utilizando as melhores técnicas de personalização e materiais de primeira linha. Acreditamos que cada brinde é uma oportunidade de fortalecer relacionamentos e criar conexões duradouras.</p>
+                    <p class="animate-on-scroll">Na Sublima & Brindes, a satisfação do cliente é nossa prioridade. Trabalhamos incansavelmente para superar expectativas e entregar produtos que verdadeiramente representem a essência de sua marca.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Depoimentos -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Depoimentos</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card animate-on-scroll">
+                        <img src="https://example.com/cliente1.jpg" alt="Foto de Maria Silva, cliente satisfeita">
+                        <h3>Maria Silva</h3>
+                        <p>"Os brindes da Sublima & Brindes superaram todas as nossas expectativas. A qualidade é excelente e o atendimento foi impecável!"</p>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <img src="https://example.com/cliente2.jpg" alt="Foto de João Santos, cliente satisfeito">
+                        <h3>João Santos</h3>
+                        <p>"Estamos muito satisfeitos com as camisetas personalizadas. Nossos funcionários adoraram e a marca ficou ainda mais forte!"</p>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <img src="https://example.com/cliente3.jpg" alt="Foto de Ana Oliveira, cliente satisfeita">
+                        <h3>Ana Oliveira</h3>
+                        <p>"Os chaveiros personalizados foram um sucesso em nosso evento. Obrigada Sublima & Brindes pela pontualidade e qualidade!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato com Formulário -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Entre em Contato</h2>
+                <div class="contact-info">
+                    <p>Telefone: (22) 99720-8740</p>
+                    <p>Email: contato@sublimaebrindes.com</p>
+                    <p>Endereço: Rua dos Brindes, 123 - Centro, Cidade - Estado</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+                <div id="form-message"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para Detalhes do Produto -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
         </div>
     </div>
-    <img class= "img-capa" src="Img/capa.jpg" alt="">
 
-    <div id="sinopse" class="secao">
-        <h2>Sinopse</h2>
-        <p>Após anos enfrentando supervilões megalomaníacos, monstros destruidores e invasores alienígenas, o Homem de Aço e a famosa jornalista Lois Lane retornam à idílica cidade de Smallville para criar os filhos adolescentes, Jonathan e Jordan.<br><br>Na estreia da série, Superman e Lois retornam a Smallville para enfrentar um de seus maiores desafios: criar dois meninos sendo pais que trabalham.</p>
-      </div>
-    
-      <div id="disponibilidade" class="secao">
-        <h2>Disponibilidade</h2>
-        <img src="img/tv.jpg" alt="Logo da HBO Max e Warner">
-        <p>Superman & Lois já conta com duas temporadas e está sendo transmitido pelo canal de TV Warner Channel e no serviço de Streaming HBO Max. Os novos episódios da série saem aos sábados.</p>
-      </div>
-    
-      <div class="secao">
-        <p>Confira abaixo algumas imagens da série:</p>
-        <div class="galeria">
-          <img class="imagem-sombra" src="Img/1.jpg" alt="Superman">
-          <img class="imagem-sombra" src="Img/2.jpg" alt="Clark e Jordan">
-          <img class="imagem-sombra" src="Img/3.jpg" alt="Lois e Clark">
-          <img class="imagem-sombra" src="Img/4.jpg" alt="Jonathan e Lois">
-          <img class="imagem-sombra" src="Img/5.jpg" alt="Lois e Jordan">
-          <img class="imagem-sombra" src="Img/6.jpg" alt="Jordan e Jonathan">
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Sublima & Brindes. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://facebook.com/sublimaebrindes" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/sublimaebrindes" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/company/sublimaebrindes" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
-        <div class="informacao">
-          <p>Assista Superman & Lois na <a href="https://play.hbomax.com/page/urn:hbo:page:GYICZHwryn4a3iAEAAAFc:type:episode">HBO Max</a></p>
-        </div>
-      </div>
-    
-      <div class="rodape">HBO Max - 2022</div>
-    </body>
-    </html>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
