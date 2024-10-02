@@ -137,7 +137,7 @@ nav {
 .hero p {
     font-size: 18px;
     margin-bottom: 30px;
-    color: var(--text-color);
+    color: var(--dynamic-color-2);
 }
 
 .cta-button {
