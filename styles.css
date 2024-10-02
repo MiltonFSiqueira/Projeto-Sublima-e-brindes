@@ -4,7 +4,7 @@
     --primary-color: #FF6B6B;
     --secondary-color: #4ECDC4;
     --accent-color: #FFD93D;
-    --text-color: #2C3E50;
+    --text-color: #04121f;
     --bg-color: #F7F7F7;
     --highlight-color: #FF8C94;
     --dynamic-color-1: #6A4C93;
@@ -137,7 +137,7 @@ nav {
 .hero p {
     font-size: 18px;
     margin-bottom: 30px;
-    color: var(--dynamic-color-2);
+    color: var(--text-color);
 }
 
 .cta-button {
