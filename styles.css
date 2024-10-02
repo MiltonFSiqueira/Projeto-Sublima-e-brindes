@@ -357,6 +357,10 @@ footer {
     .menu-toggle {
         display: flex;
     }
+
+    .hero h1 {
+        font-size: 40px;
+    }
 }
 
 /* Animações */
